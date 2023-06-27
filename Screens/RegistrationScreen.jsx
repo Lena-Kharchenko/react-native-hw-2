@@ -48,14 +48,16 @@ const RegistrScreen = () => {
 const styles = StyleSheet.create({
   input: {
     height: 50,
-    width: 343,
-    margin: 16,
-    backgroundColor: "F6F6F6",
-    color: "BDBDBD",
-    borderColor: "E8E8E8",
+    // width: 343,
+    marginBottom: 16,
+    backgroundColor: "#F6F6F6",
+    borderColor: "#E8E8E8",
     borderRadius: 8,
-    // borderWidth: 1,
-    padding: 10,
+    borderWidth: 1,
+    borderStyle: "solid",
+    padding: 16,
+    fontSize: 16,
+    fontFamily: "Roboto-Regular",
   },
 });
 
